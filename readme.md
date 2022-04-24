@@ -1,3 +1,8 @@
+# PyTorch NLTK Chatbot
+## _A chabot with conversational function
+
+This course was given [Python Engineer](https://www.youtube.com/channel/UCbXgNpp0jedKWcQiULLbDTA). Find out more from the link given. Additional codes are added to improve the efficiency and some aare the previous learning experience. 
+
 # Training data
 - this is use to train the model to identify the type of intent of the utterance
 - we cannot pass in the whole sentence into the model, thus we are using the concept of bags of word
@@ -27,3 +32,5 @@ NLP Preprocessing Pipeline
 
 Working with NLTK (Natural Language Toolkit)
 
+# Results of Model Training 
+![Epoch results](https://user-images.githubusercontent.com/63900253/164980537-06a1c46a-668f-4259-8c01-ed714c6cc809.png)
