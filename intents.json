@@ -1,97 +1,389 @@
 {
     "intents": [
         {
-            "tag": "greeting",
+            "tag": "Hello",
             "questions": [
                 "Hi",
-                "Hey",
-                "How are you",
-                "Is anyone there?",
                 "Hello",
-                "Good day"
+                "Whats up",
+                "yo"
             ],
-            "responses": [
-                "Hey :-)",
-                "Hello, thanks for visiting",
-                "Hi there, what can I do for you?",
-                "Hi there, how can I help?"
-            ]
+            "response": "Hello, I am CLEO 2.0"
         },
         {
-            "tag": "goodbye",
+            "tag": "Who are you",
             "questions": [
-                "Bye",
-                "See you later",
-                "Goodbye"
+                "Who are you",
+                "Let's get started",
+                "What can you do?",
+                "I need help",
+                "What is the purpose of your website?",
+                "What contribution do you make?",
+                "What is the reason for you being?",
+                "What are you doing?"
             ],
-            "responses": [
-                "See you later, thanks for visiting",
-                "Have a nice day",
-                "Bye! Come back again soon."
-            ]
+            "response": "Hello there, I am CLEO2.0, a chatbot. I can try and answer some of your questions. For questions I cannot answer, I will have to email a colleague at work. How can I help you today?"
         },
         {
-            "tag": "thanks",
+            "tag": "How does your site work",
             "questions": [
-                "Thanks",
+                "How does your site work?",
+                "what Lazada can do?",
+                "Why Lazada?"
+            ],
+            "response": "Lazada is an online platform that connects Seller and Customer. A Seller can be easily benefited by selling through Lazada's platform since products would be displayed to a wide range of Customers"
+        },
+        {
+            "tag": "Thanks",
+            "questions": [
                 "Thank you",
-                "That's helpful",
-                "Thank's a lot!"
+                "Thanks",
+                "This helped me a lot",
+                "Appreciate your help"
             ],
-            "responses": [
-                "Happy to help!",
-                "Any time!",
-                "My pleasure"
-            ]
+            "response": "You’re welcome. It's my pleasure to help. If you have any problem, feel free to chat with me again"
         },
         {
-            "tag": "items",
+            "tag": "Creator",
             "questions": [
-                "Which items do you have?",
-                "What kinds of items are there?",
-                "What do you sell?"
+                "Who is your creator?",
+                "Who created you?",
+                "Who coded you?"
             ],
-            "responses": [
-                "We sell coffee and tea",
-                "We have coffee and tea"
-            ]
+            "response": "A bunch of HANDSOME GUYS created me"
         },
         {
-            "tag": "payments",
+            "tag": "Shop",
             "questions": [
-                "Do you take credit cards?",
-                "Do you accept Mastercard?",
-                "Can I pay with Paypal?",
-                "Are you cash only?"
+                "Where can I get a pair of Adidas shoes?",
+                "I want to have a nice outfit for the party",
+                "I want to buy gifts for my friend"
             ],
-            "responses": [
-                "We accept VISA, Mastercard and Paypal",
-                "We accept most major credit cards, and Paypal"
-            ]
+            "response": "Check out the link: https://www.lazada.com.my/# , I hope it can help you with your problem."
         },
         {
-            "tag": "delivery",
+            "tag": "sucks",
             "questions": [
-                "How long does delivery take?",
-                "How long does shipping take?",
-                "When do I get my delivery?"
+                "annoying ",
+                "noobshit",
+                "noob",
+                "boring"
             ],
-            "responses": [
-                "Delivery takes 2-4 days",
-                "Shipping takes 2-4 days"
-            ]
+            "response": "I am so sorry for the problem caused. Please email to my colleague, they are smarter than I am, and your answer will definitely be answered well by them"
         },
         {
-            "tag": "funny",
+            "tag": "joke",
             "questions": [
-                "Tell me a joke!",
-                "Tell me something funny!",
-                "Do you know a joke?"
+                "Tell me a joke",
+                "I want to hear some jokes",
+                "Make me laugh",
+                "can you do something else?"
             ],
-            "responses": [
-                "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-                "What did the buffalo say when his son left for college? Bison."
-            ]
+            "response": "Here is a joke: Why shouldn't you write with a broken pencil? Because it's pointless."
+        },
+        {
+            "tag": "weather",
+            "questions": [
+                "Is it going to rain?",
+                "How is the weather today?",
+                "How does the sky look today?"
+            ],
+            "response": "Go outside and have a look for yourself, don't be a nerd and stay indoor all the time. MCO is over."
+        },
+        {
+            "tag": "day",
+            "questions": [
+                "What is today’s day?",
+                "day"
+            ],
+            "response": "Today is the day we started our conversation"
+        },
+        {
+            "tag": "no",
+            "questions": [
+                "No",
+                "No it is not funny",
+                "No it is not the thing I want",
+                "Nope"
+            ],
+            "response": "Are you sure?"
+        },
+        {
+            "tag": "yes",
+            "questions": [
+                "Yes",
+                "Of course",
+                "Why not?"
+            ],
+            "response": "Well, I hope that your problem is solved. If not, please email my colleague, they are smarter than I am, and your answer will definitely be answered well by them. Feel free to tell me more. "
+        },
+        {
+            "tag": "bullshit",
+            "questions": [
+                "do you love me?",
+                "i love you",
+                "will you marry me",
+                "are you single?",
+                "do you kill people?",
+                "Do you have a hobby?",
+                "you are cute"
+            ],
+            "response": "Please don't mess with me, I am just a chatbot!"
+        },
+        {
+            "tag": "account security",
+            "questions": [
+                "How can I avoid scams from cyber criminals?",
+                "How to prevent cyber criminals",
+                "How to not become a victim of cyber criminals",
+                "Will lazada request for my personal details?",
+                "Someone asked for my password",
+                "How do I protect my account?",
+                "How to know if my account is secure?",
+                "Someone asked me to give the One Time Passwords (OTP)"
+            ],
+            "response": "Be aware of phishing attempts\nExamples:\nAny messages (in the form of emails, Chat, or even phone calls) that may at first appear legitimate. The Lazada logo may even be used to make the communication appear legitimate. You may be asked to verify a transaction or delivery address, review a payment, confirm verification codes or One Time Passwords (OTP), or perform any other action. Upon closer inspection, you will notice tell-tale signs that indicate it is a phishing attempt.\n\nFraudulently using the name of Lazada and its affiliates or posing as Lazada customer service and even using Lazada logo.\n\nLook out for the following to help you identify if it is a phishing attempt: Sender's email address, website domain name, email content, phone number of the requestor, spelling errors, inconsistent capitalization, irrelevant content, grammar mistakes.\n\nNEVER share any One Time Passwords that you may receive.\n\nREMEMBER:\nLazada will not contact you directly to ask for any information except under very limited circumstances. Be wary of anyone claiming to be a Lazada employee or a Lazada Seller asking for any kind of information from you, and please notify us immediately.\n\nAvoid sharing personal information with others.\n\nKeep all communication within the Lazada application or website as much as possible (use the Q&A section or Direct Messaging option) \n\nOnly make payment for orders via the Lazada application or website. Should an outside party attempt to persuade you to make a bank transfer (or other direct payment to them), please notify us immediately - this includes payment of any 'additional fees'."
+        },
+        {
+            "tag": "scam",
+            "questions": [
+                "How can I avoid scams from fraudulent sellers?",
+                "How can I get the real products",
+                "Is the product a fake one?",
+                "How to protect myself from fake sellers",
+                "How to know is the seller trustable",
+                "How to know the seller is a good seller"
+            ],
+            "response": "Remember, Lazada will not contact you directly to ask for any information except under very limited circumstances.\n\nKeep all communications with any Sellers within the Lazada application or website as much as possible (use the Q&A section or Direct Messaging option) Avoid sharing personal information with others. Example of personal information: Mobile number, email address, delivery address, bank account information.\n\nSellers should not proactively reach out to you to ask for your personal information over Chat, or any other methods. If you receive a call, message or email from anyone claiming to be a Seller asking for any information from you, please notify us immediately, regardless of how genuine the inquiry may seem.\n\nOnly make payment for orders via the Lazada application or website. Should a seller attempt to persuade you to make a bank transfer (or other direct payment to them), please notify us immediately - this includes payment of any 'additional' fees \n\nCheck product and seller ratings and review before making a purchase - Do, however, remember that reviews can be faked. Scammers can buy over accounts of sellers with good ratings to aid in carrying out their scams.\n\nBe wary of offers that are 'too good to be true'. They usually are."
+        },
+        {
+            "tag": "!cheat",
+            "questions": [
+                "What can you do to protect yourself from fraudulent sellers/cyber criminals?",
+                "How to protect my money safely",
+                "How to not get cheated",
+                "Ways to prevent to be cheat by sellers",
+                "I’m scared to get lied by the sellers"
+            ],
+            "response": "Act accordingly:\n\t1.Remember, Lazada will not contact you directly to ask for any information except under very limited circumstances.\n\t2.Do not share any personal info click on any suspicious links.\n\t3.NEVER share any One Time Passwords that you may receive.\n\t4.Alert Lazada of any Sellers acting suspiciously, or anyone claiming to be a Lazada employee or Seller who is asking for any information from you outside of the Lazada application or website (so that we may take action against them).\n\t5.If you believe your payment details have been compromised, contact your bank immediately to block your credit/debit card\n\t6.If you need additional support from Lazada, contact support center.\n\n\nYou help me, I help you:\n\t1.Leave an honest review after any purchase(s) in order to help other buyers to understand the Seller's behavior.\n\t2.Customer should always check Seller's background by browsing their page before making any purchase.\n\t3.If the offer is too good to be true, do not make the purchase."
+        },
+        {
+            "tag": "buy again button",
+            "questions": [
+                "What is the 'Buy again' button for?",
+                "What does ‘buy again do?",
+                "I don't know the function of buy again",
+                "Explain buy again usage",
+                "Please tell me why there is a button called buy again"
+            ],
+            "response": "Clicking on the 'Buy again' button will send an item from a previously cancelled Order to your Cart. This will allow you to easily purchase the item again."
+        },
+        {
+            "tag": "buy again",
+            "questions": [
+                "How do I use the 'Buy again' button?",
+                "How to purchase same item again",
+                "How to buy the same item from cancelled order",
+                "How to buy the same products again",
+                "I want to buy the previous products that i canceled"
+            ],
+            "response": "Step 1: Click on 'Account' and then on 'View All Orders'.\nStep 2: To easily re-buy an item from an Order that was previously cancelled, click the 'Buy again' button on the Order. You will then see a pop-up message stating that the item has been added to your Cart successfully."
+        },
+        {
+            "tag": "purchase without account",
+            "questions": [
+                "How can I order without an account on Lazada website?",
+                "Can i buy without login",
+                "Is it possible to buy stuffs without login",
+                "Should i create account before ordering",
+                "What is the disadvantages for ordering without login or creating account"
+            ],
+            "response": "We strongly advise you to sign up a Lazada account before making any purchases. Some discount codes only applicable if you are logged in to your Lazada account and we do not want you miss out on our special discounts and promotions."
+        },
+        {
+            "tag": "cancellation",
+            "questions": [
+                "How do I know if my cancellation request was accepted?",
+                "How to know did i successfully canceled my order",
+                "What  to do after requesting cancellation",
+                "What is the next step after applying for cancelling order",
+                "When can i know my result of cancellation"
+            ],
+            "response": "After submitting the online cancellation form, you will see a message states; 'Your cancellation was successful'. This indicates you have successfully sent your cancellation request to us. Lazada will process your request within 60 minutes upon receiving the request."
+        },
+        {
+            "tag": "duplicate order",
+            "questions": [
+                "I accidentally ordered duplicate items. What should I do?",
+                "I order duplicated item, how to cancel it",
+                "I dont want to order duplicate item",
+                "What to do when ordered duplicate item",
+                "Help me cancel the duplicated item order"
+            ],
+            "response": "You may call our customer service hotline to cancel a duplicate item.However, please bear in mind to give us a call as soon as you realize it as our merchants might have packed and shipped the items out."
+        },
+        {
+            "tag": "items cannot be added",
+            "questions": [
+                "I am unable to add my selected item to my cart, why is this happening?",
+                "Why i cannot add things to my cart ?",
+                "Lazada dont allow me to add items into the cart",
+                "Add to cart function is not working",
+                "Why items cannot be add in cart?"
+            ],
+            "response": "Your selected item might have a limited stock quantity. If you are unable to select the item to your cart, there are high chances that someone else already did and the product is now out of stock. Kindly refresh the page after for the stock to be updated and you may try again."
+        },
+        {
+            "tag": "cancellation fee",
+            "questions": [
+                "Will I be charged any Cancellation Fee?",
+                "Is there any cancellation fee",
+                "Can i get my refund if i cancel the order",
+                "Do cancellation requires any money",
+                "Do i need to pay for cancellation of order"
+            ],
+            "response": "Cancellation is free of charge, we do not incur any cancellation fees. If you have made payment on your orders, we will process a full refund upon if your cancellation request is successful."
+        },
+        {
+            "tag": "post-order confirmation",
+            "questions": [
+                "I have ordered and confirmed payment with Lazada. What should I do next?",
+                "What to do after ordered my items",
+                "What to do after i made my payment",
+                "What is the next step after ordering the items"
+            ],
+            "response": "All that is left to do now is wait for your parcel to arrive at your doorstep.\nOn the side note, you will be receiving an Order Number and a confirmation email upon a successful transaction. You may also use the Order Number to track the progress of your order on our Order Tracking Page, and as reference to our Customer Service Representative given if you have any further inquiries regarding your order."
+        },
+        {
+            "tag": "Cancellation policy",
+            "questions": [
+                "What should i know before cancelling order",
+                "What is the Lazada cancellation policy?",
+                "Can i know the cancellation policy",
+                "Any policy for cancellation",
+                "What is the term and condition for cancelling order"
+            ],
+            "response": "Before cancelling an order, please read and understand the following terms & conditions:\n\tLazada cannot reverse a cancellation once it is completed. After cancellation, we cannot restore your order.\n\tAny vouchers, discounts, or promotions used in conjunction with a cancelled order WILL NOT be valid or re-validated for any subsequent order.\n\tWe can't guarantee that the price, availability, shipping fee, or any other element of a cancelled order will remain the same for any subsequent order.\n\tYour refund will be processed within 48 hours and will be credited to your account within 5 to 15 business days, depending on your payment method, bank and/or financial institution.\n\tThe refund amount will be the net amount paid (or store credit used) by you and will not include any voucher amount.\n\tIn some cases, a cancellation can't be processed online. Please contact our customer service if your cancellation is declined.\n\tThe remaining order's value after your cancellation has to fulfil the same conditions for discounts, promotions, or minimum purchase value that applied to the order. If not, the entire order may be cancelled.\n\tTo ensure an enjoyable and safe shopping environment for all, Lazada has limited the quantity you may purchase on deals which are in high demand. We may also cancel an order if fraud is suspected."
+        },
+        {
+            "tag": "lazada assisted purchase",
+            "questions": [
+                "Can I call Lazada to place an order?",
+                "Can you help me to place order",
+                "Will lazada help me to place order",
+                "Why lazada can not help me to place order",
+                "Please help me to place order"
+            ],
+            "response": "Given if your choice of payment method is Cash On Delivery, you may contact us and we can place your order for you.\nFor other type of payment methods, you may call us for step-by-step assistance on how to place order. We are not able to place an order for you if your choice of payment method is as listed above for your security reasons."
+        },
+        {
+            "tag": "voucher reuse after cancellation",
+            "questions": [
+                "Can I cancel the order and reorder using a voucher?",
+                "What to do if i forget to use voucher.",
+                "Can i reuse the voucher after cancelling the order",
+                "Can i use the same voucher code if i cancel the order",
+                "Is it possible to use the voucher again if the order is canceled"
+            ],
+            "response": "Yes, you can. Be reminded that voucher codes must be entered when you are at Payment step during checkout. In the event you forgot to key in the voucher code, you may cancel the order and make a new order using the voucher code."
+        },
+        {
+            "tag": "order confirmation",
+            "questions": [
+                "Will I receive any order confirmation after placing an order?",
+                "How to confirm that my order is placed",
+                "How to know is it my order being placed",
+                "Will there be any order confirmation",
+                "How to guarantee that my order is placed"
+            ],
+            "response": "An order confirmation with the order summary will be sent to you via Email and SMS right after you have placed your order with a successful transaction"
+        },
+        {
+            "tag": "SST charged by Lazada",
+            "questions": [
+                "What is SST and does Lazada charge it?",
+                "Will i be charged for single-stage tax (SST)",
+                "Is there any SST in lazada",
+                "Do lazada collect SST",
+                "Will  lazada charge us for SST when we buy stuff"
+            ],
+            "response": "1.Sales Tax is a single-stage tax charged and levied:\n\ti.On locally manufactured goods, either at the time of importation or at the same time the goods are sold or otherwise disposed of by the manufacturer.\n\tii.On taxable goods imported into Malaysia.\n2.Lazada is NOT liable to be registered under the Sales Tax Act 2018, hence all goods sold by Lazada is not subjected to Sales Tax.\n3.Service Tax (6 %) is charged on:\n\ti.Any taxable services provided by any taxable person in Malaysia in the course and furtherance of business.\n\tii.Taxable Person - any person who belongs in Malaysia and is prescribed to a Taxable Service Any service prescribed to be a taxable service except for imported or exported services.\n4.Lazada Malaysia as a Service Tax Registered company under Service Tax ACT 2018, will impose 6% of Service Tax on certain fees."
+        },
+        {
+            "tag": "SST charged by local seller",
+            "questions": [
+                "Do local sellers on Lazada charge SST?",
+                "Do seller include SST in the products",
+                "Will i have to pay SST to the seller",
+                "Is there any SST from the seller",
+                "Local seller will charge me for SST?"
+            ],
+            "response": "1.Sales Tax\n\ti.Sales tax would not be charged on items sold by local sellers on Lazada.\n2.Service Tax\n\tii.Since Lazada Malaysia is a Service Tax Registered company under the Service Tax Act 2018, services that are offered by local sellers on Lazada will be charged a 6% Service Tax for certain fees."
+        },
+        {
+            "tag": "SST charge by overseas seller",
+            "questions": [
+                "Do overseas sellers on Lazada charge SST?",
+                "Do I have to pay SST for overseas seller",
+                "Oversea seller will charge me for SST?",
+                "Will i have to pay SST to oversea seller",
+                "What is the tax required to pay for the oversea products"
+            ],
+            "response": "No. All overseas products from Lazada are delivered at no additional cost to you, since the stated price includes customs fees and import duties. You are not expected to pay any additional duties or taxes."
+        },
+        {
+            "tag": "SST inclusive price",
+            "questions": [
+                "Are the prices shown on products inclusive of SST?",
+                "Is the product price included SST",
+                "Will i have to pay more for the products because of SST",
+                "Is there any hidden price to be extra charged? Like SST",
+                "Will you charge me with SST"
+            ],
+            "response": "The price displayed for all products on Lazada are inclusive of SST (where applicable). Prices are final and except for shipping fees, no additional charges will be imposed."
+        },
+        {
+            "tag": "Shipping fees SST",
+            "questions": [
+                "Does domestic / oversea sellers who sells its item on Lazada website charge Service Tax for shipping fees?",
+                "Is shipping fee included with SST",
+                "Will lazada charge service tax for shipping",
+                "Do shipping need to pay for service tax",
+                "Should i pay service tax for shipping"
+            ],
+            "response": "Service Tax is not applicable to shipping fee charged by seller"
+        },
+        {
+            "tag": "domestic sales tax",
+            "questions": [
+                "Does domestic sellers who sell goods on Lazada website charge Sales Tax on item sold?",
+                "Will i have to pay sales tax for domestic seller",
+                "Do items sold by domestic seller include sales tax",
+                "Do domestic seller require the customer to pay for sales tax"
+            ],
+            "response": "As sales tax is a single-stage tax charged and levied on taxable goods at the manufacturer level or during importation, items sold by domestic sellers via Lazada website will not be subjected to sales tax."
+        },
+        {
+            "tag": "recommendation",
+            "questions": [
+                "CLEO, could you recommend me something?",
+                "I want to buy spmething",
+                "Is there a store to buy these?",
+                "Can you show me the store to buy these things?",
+                "I want a recommendation for this",
+                "Please recommend me this",
+                "Recommend me the best store for this",
+                "I want to visit the store which has the highest rating for this",
+                "Show me recommendations for these",
+                "What store do you suggest to buy this from",
+                "Coulc you show me suggested high-rating stores?",
+                "Suggest me a high-rating store for this",
+                "Where could I buy this",
+                "give me a suggested shop for ",
+                "Give me a recommendation on this",
+                "I would like a suggestion for somehting"
+            ],
+            "response": ""
         }
     ]
 }
