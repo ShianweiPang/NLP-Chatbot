@@ -33,4 +33,6 @@ NLP Preprocessing Pipeline
 Working with NLTK (Natural Language Toolkit)
 
 # Results of Model Training 
-![Epoch results](https://user-images.githubusercontent.com/63900253/164980537-06a1c46a-668f-4259-8c01-ed714c6cc809.png)
+![Epoch results](https://user-images.githubusercontent.com/63900253/165068082-b43853bc-171a-4406-91b2-dd501a88619f.png)
+
+
